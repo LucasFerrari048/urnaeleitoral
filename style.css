@@ -1,0 +1,106 @@
+body{
+  background-color: #DCDCDC;
+  margin: 0;
+}
+
+div.painel{
+  background-color: rgb(1, 1, 67);
+  padding: 15px 15px;
+  box-shadow: 0px 5px DimGray;
+}
+.juntos{
+  display: flex;
+  align-items: center;
+  flex-direction: row; 
+  justify-content: space-between;
+  text-align: center;   
+}
+h1{
+  font-size: 35px;
+  color:white;
+  text-align: center;  
+}
+
+.cinzaEscuro{
+    top: 50%;
+    margin-top: -200px;
+    width: 250px;
+    height: 60px;
+    right: 20px;
+    position: fixed;
+    text-align: center;
+  }
+  b{
+    position: relative;
+    top: 10px;
+  }
+  .preto{
+    border: solid 2px;
+    top: 57%;
+    margin-top: -75px;
+    left: 70%;
+    margin-left: -100px;
+    position: fixed;
+    background-color: #444;
+    height: 300px;
+    width: 250px;
+    right: 20px;
+  }
+  .cinzaClaro{
+    position: fixed;
+    border: solid 3px;
+    left: 50%;
+    margin-left: -400px;
+    top: 50%;
+    margin-top: -100px;
+    position: fixed;
+    height: 180px;
+    width: 380px;
+    background-color: snow;
+  }
+
+  #campo1, #campo2 {
+    font-size: 20px; /* Defina o tamanho da fonte desejado, por exemplo, 20 pixels */
+  }
+  p{
+    font-size: 20px;
+  }
+
+  .cinzaEscuro{
+    background-color: #b6b5b5;
+    border: solid 2px;
+    top: 40%;
+    margin-top: -33px;
+    left: 70%;
+    margin-left: -100px;
+    position: fixed;
+  }
+  .bnt{
+    margin: 10px;
+    background-color: black;
+    color: snow;
+    border-radius: 5px;
+    height: 30px;
+    width: 50px;
+  }
+  .teclado2{
+    font-size: 11px;
+    position: absolute;
+    bottom: 20px;
+    left: 5px;
+    color: black;
+  }
+  .branco{
+    height: 40px;
+    width: 75px;
+  }
+  .laranja{
+    height: 40px;
+    width: 75px;
+    background-color: #E67401;
+  }
+  .verde{
+    height: 50px;
+    width: 84px;
+    background-color: green;
+  }

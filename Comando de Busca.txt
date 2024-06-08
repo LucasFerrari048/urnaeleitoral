@@ -1,0 +1,3 @@
+SELECT candidato, COUNT(*) as votos_total
+FROM contagem_de_votos
+GROUP BY candidato;
